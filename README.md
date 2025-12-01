@@ -1,9 +1,9 @@
 # Simulador Econômico 3D
 
-Andrey Justen Júnior –	       1072316310
-Bárbara Prim de Souza –	   10723114770
-Mateus nunes Lehmkuhl –	1072312497
-Leonardo Alves Silva –	        10723113466
+- Andrey Justen Júnior –	       1072316310
+- Bárbara Prim de Souza –	   10723114770
+- Mateus nunes Lehmkuhl –	1072312497
+- Leonardo Alves Silva –	        10723113466
 
 Simulador econômico com visualização 3D Low-Poly desenvolvido para a disciplina de **Computação Gráfica e Realidade Virtual**.
 
