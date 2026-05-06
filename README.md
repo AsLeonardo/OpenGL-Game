@@ -1,68 +1,70 @@
-# Simulador Econômico 3D
+# 3D Economic Simulator
 
-- Andrey Justen Júnior –	       1072316310
-- Bárbara Prim de Souza –	   10723114770
-- Mateus nunes Lehmkuhl –	1072312497
-- Leonardo Alves Silva –	        10723113466
+**Authors**
+- Andrey Justen Júnior
+- Bárbara Prim de Souza
+- Mateus Nunes Lehmkuhl
+- Leonardo Alves Silva
 
-Simulador econômico com visualização 3D Low-Poly desenvolvido para a disciplina de **Computação Gráfica e Realidade Virtual**.
+An economic simulator with low-poly 3D visualization, developed for the **Computer Graphics and Virtual Reality** course.
 
-## Descrição
+## Description
 
-Aplicação interativa que combina mecânicas de simulação econômica com renderização 3D em tempo real utilizando OpenGL. O jogador gerencia uma empresa, construindo edificações, comprando/vendendo recursos e acompanhando a evolução visual da sua cidade industrial.
+An interactive application that combines economic simulation mechanics with real-time 3D rendering using OpenGL. The player manages a company by constructing buildings, buying and selling resources, and watching their industrial city evolve visually as the business grows.
 
-## Requisitos
+## Highlights
+
+<img width="1080" alt="Image" src="https://github.com/user-attachments/assets/ee47a3f5-a26c-40e1-bdf6-6102620a8797" />
+
+## Requirements
 
 - Python 3.8+
 - PySide6
 - PyOpenGL
 - NumPy
 
-## Instalação
+## Installation
 
 ```bash
 pip install PySide6 PyOpenGL numpy
 ```
 
-## Execução
+## Running
 
 ```bash
 python simulador3d.py
 ```
 
-## Conceitos de CG Aplicados
+## Computer Graphics Concepts Applied
 
-- **Primitivas 3D**: Boxes, cilindros e prismas triangulares
-- **Transformações**: Translação, rotação e escala hierárquicas
-- **Iluminação**: Modelo Phong com luz direcional
-- **Animações**: Procedurais em tempo real (fumaça, água, rotações)
-- **Materiais**: Cores e propriedades de reflexão
+- **3D Primitives:** boxes, cylinders, and triangular prisms
+- **Transformations:** hierarchical translation, rotation, and scaling
+- **Lighting:** Phong shading model with directional light
+- **Animations:** real-time procedural effects (smoke, water, rotations)
+- **Materials:** colors and reflection properties
 
-## Estrutura do Projeto
+## Project Structure
 
 ```
 simulador3d.py
-├── Modelos de Dados (Recurso, Construcao, Evento, Conquista)
-├── Lógica de Negócio (Empresa)
-├── Renderização 3D (GLWidget, funções draw_*)
-└── Interface Gráfica (MainWindow)
+├── Data Models (Resource, Building, Event, Achievement)
+├── Business Logic (Company)
+├── 3D Rendering (GLWidget, draw functions)
+└── Graphical Interface (MainWindow)
 ```
 
-## Controles
+## Controls
 
-| Ação | Controle |
-|------|----------|
-| Rotacionar câmera | Arrastar com mouse |
-| Zoom | Scroll do mouse |
+| Action          | Control            |
+|-----------------|--------------------|
+| Rotate camera   | Click & drag mouse |
+| Zoom in / out   | Mouse scroll       |
+| Movement        | WASD Keys          |
 
-## Funcionalidades
+## Features
 
-- 8 tipos de construções com modelos 3D únicos
-- Sistema de upgrades (5 níveis por construção)
-- Mercado dinâmico com volatilidade de preços
-- Eventos aleatórios e sistema de conquistas
-- Save/Load em formato JSON
-
-## Github
-
-https://github.com/AsLeonardo/OpenGL-Game
+- 8 building types, each with a unique 3D model
+- Upgrade system (5 levels per building)
+- Dynamic market with price volatility
+- Random events and achievement system
+- Save / Load support in JSON format
