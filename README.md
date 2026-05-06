@@ -32,7 +32,7 @@ pip install PySide6 PyOpenGL numpy
 ## Running
 
 ```bash
-python simulador3d.py
+python 3dsimulator.py
 ```
 
 ## Computer Graphics Concepts Applied
@@ -46,7 +46,7 @@ python simulador3d.py
 ## Project Structure
 
 ```
-simulador3d.py
+3dsimulator.py
 ├── Data Models (Resource, Building, Event, Achievement)
 ├── Business Logic (Company)
 ├── 3D Rendering (GLWidget, draw functions)
