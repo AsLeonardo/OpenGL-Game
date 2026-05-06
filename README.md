@@ -12,8 +12,6 @@ An economic simulator with low-poly 3D visualization, developed for the **Comput
 
 An interactive application that combines economic simulation mechanics with real-time 3D rendering using OpenGL. The player manages a company by constructing buildings, buying and selling resources, and watching their industrial city evolve visually as the business grows.
 
-## Highlights
-
 <img width="1080" alt="Image" src="https://github.com/user-attachments/assets/ee47a3f5-a26c-40e1-bdf6-6102620a8797" />
 
 ## Requirements
